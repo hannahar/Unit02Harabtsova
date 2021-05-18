@@ -2,7 +2,7 @@ package by.epam.unit02.main;
 
 public class Task09 {
 	public static void main (String[] args) {
-		double x, fx = 0;
+		double x, fx = 0;// помнишь про code convention?
 		x = -2;
 		
 		if (x <= -3 ) {
@@ -15,3 +15,4 @@ public class Task09 {
 	}
 
 }
+// Хорошо решила задачи, только аккуратнее с кодом
