@@ -2,7 +2,7 @@ package by.epam.unit02.main;
 
 public class Task07 {
 	public static void main(String[] args) {
-		{
+		{// зачем тебе лишний скобочки?
 			int a, b, c;
 			double z, y, m = 0;
 			a = 3;
@@ -16,7 +16,7 @@ public class Task07 {
 				z = Math.pow(a, 4);
 				System.out.println("Result for a =" + z);
 			}
-			;
+			;// ?
 			if (b > 0) {
 				y = Math.pow(b, 2);
 				System.out.println("Result for b = " + y);
@@ -33,7 +33,7 @@ public class Task07 {
 			}
 			;
 			System.out.println("Result for c = " + m);
-		}
+		}// аккуратнее с кодом
 
 	}
 }
